@@ -7,7 +7,7 @@ namespace Entities.Concrete
 {
    public class Book : IEntity
    {
-        public int? BookId { get; set; }
+        public int BookId { get; set; }
         public int CategoryId { get; set; }
         public int BookTypeOfBookId { get; set; }
         public int BookPublishingHouseId { get; set; }

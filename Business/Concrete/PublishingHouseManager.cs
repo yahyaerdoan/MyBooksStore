@@ -56,5 +56,7 @@ namespace Business.Concrete
                 Console.WriteLine($"İsim minimum iki karekter olmalıdır! Girdiğiniz yayınevi adı : {publishingHouse.PublishingHouseName}");
             }
         }
+
+       
     }
 }

@@ -44,9 +44,7 @@ namespace DataAccess.Concrete.EntityFrameWork
         {
             using (BookDatabasesContext context = new BookDatabasesContext())
             {
-                return filter == null
-                    ? context.Set<Book>().ToList() 
-                    : context.Set<Book>().Where(filter).ToList();
+                return filter == null? context.Set<Book>().ToList(): context.Set<Book>().Where(filter).ToList();
 
             }
         }
